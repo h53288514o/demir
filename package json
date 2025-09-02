@@ -2,9 +2,9 @@
   "name": "fast-proxy",
   "version": "1.0.0",
   "description": "High-performance HTTP proxy using Express and Undici",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "latest",
@@ -13,12 +13,5 @@
   "engines": {
     "node": ">=18"
   },
-  "keywords": [
-    "proxy",
-    "express",
-    "undici",
-    "http"
-  ],
-  "author": "",
   "license": "MIT"
 }
